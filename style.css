@@ -4,24 +4,95 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #e0e7ff; /* Background color */
+    background-color: #f0f4f8; /* Background color */
+    margin: 0;
 }
 
 .container {
     text-align: center;
-    padding: 30px;
+    padding: 2rem;
     background-color: #ffffff; /* Background color for container */
-    border-radius: 15px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    width: 90%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
     max-width: 400px;
 }
 
 /* TODO: Add styles for labels, inputs, buttons, and output text */
 h1 {
-    font-size: 2.2em;
-    margin-bottom: 20px;
-    color: #4a4a4a; /* Header color */
+    margin-bottom: 1.5rem;
+    color: black; /* Header color */
+    text-align: center;
 }
 
 /* Add more styles here as needed */
+.form-group {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: black;
+}
+
+input[type="number"],
+input[type="text"] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#generateBtn {
+    margin-top: 1rem;
+}
+
+.output-group {
+    margin-top: 1.5rem;
+    max-width: 100%;
+}
+
+#passwordOutput {
+    margin-bottom: 0.5rem;
+    background-color: #f8f9fa;
+}
+
+#copyBtn {
+    background-color: #2ecc71;
+}
+
+#copyBtn:hover {
+    background-color: #27ae60;
+}
+
+.criteria {
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.criteria h3 {
+    margin-bottom: 0.5rem;
+    color: black;
+}
