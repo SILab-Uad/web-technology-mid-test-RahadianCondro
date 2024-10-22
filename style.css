@@ -72,6 +72,8 @@ button:hover {
 .output-group {
     margin-top: 1.5rem;
     max-width: 100%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
 }
 
 #passwordOutput {
